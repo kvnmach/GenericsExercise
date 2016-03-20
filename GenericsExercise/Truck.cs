@@ -8,5 +8,6 @@ namespace GenericsExercise
 {
     public class Truck : TheVehicle
     {
+       
     }
 }

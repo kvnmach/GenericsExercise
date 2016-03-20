@@ -6,9 +6,16 @@ namespace GenericsExercise
     {
         public void isFilledUp(T TheVehicle)
         {
-            TheVehicle.isFilledUp = true;
-            Console.WriteLine($" The{TheVehicle} had its gas tank filled ");
+            TheVehicle.IsFilledUp = false;
+            Console.WriteLine($"The {TheVehicle} had its gas filled up");
         }
-        
+
+        public void AreOilChanged(T TheVehicle)
+        {
+            TheVehicle.AreTiresChanged = false;
+            Console.WriteLine($"The {TheVehicle} had its oil changed");
+        }
     }
+
+
 }
