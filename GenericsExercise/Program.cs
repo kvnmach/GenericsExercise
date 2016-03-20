@@ -10,6 +10,7 @@ namespace GenericsExercise
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

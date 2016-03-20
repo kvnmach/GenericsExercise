@@ -7,15 +7,23 @@ namespace GenericsExercise
         public void isFilledUp(T TheVehicle)
         {
             TheVehicle.IsFilledUp = false;
-            Console.WriteLine($"The {TheVehicle} had its gas filled up");
+            Console.WriteLine($"The {TheVehicle} had its {TheVehicle.TypeOfGas} filled up");
         }
 
-        public void AreOilChanged(T TheVehicle)
+        public void IsNewOil(T TheVehicle)
         {
-            TheVehicle.AreTiresChanged = false;
+            TheVehicle.IsNewOil = false;
             Console.WriteLine($"The {TheVehicle} had its oil changed");
         }
     }
 
+    public static class ShopExtension
+    {
+        public static void AreTiresChanged<T>(this Shop<T> shop, T TheVehicle) where T : TheVehicle
 
+        {
+            TheVehicle.AreTiresChanged = false;
+            Console.WriteLine($"The {TheVehicle} had its Tires Serviced")
+        }
+    }
 }
