@@ -9,6 +9,6 @@ namespace GenericsExercise
             TheVehicle.isFilledUp = true;
             Console.WriteLine($" The{TheVehicle} had its gas tank filled ");
         }
-        public void isNewOil 
+        
     }
 }

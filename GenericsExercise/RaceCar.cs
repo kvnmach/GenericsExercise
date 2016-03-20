@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace GenericsExercise
 {
-    class RaceCar
+    public class RaceCar : TheVehicle
     {
-        public 
+        
     }
 }

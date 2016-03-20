@@ -2,8 +2,14 @@
 {
     public class TheVehicle
     {
-        public bool isNewOil { get; set; }
-        public bool areTiresChanged { get; set; }
-        public bool isFilledUp { get; set; }
+        public bool IsNewOil { get; set; }
+        public bool AreTiresChanged { get; set; }
+        public bool IsFilledUp { get; set; }
+
+        
+        
+            
+        
     }
+
 }
