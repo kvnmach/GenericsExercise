@@ -8,6 +8,11 @@ namespace GenericsExercise
 {
     public class Truck : TheVehicle
     {
-       
+        public Truck()
+        {
+            AreTiresChanged = true;
+            IsFilledUp = true;
+            IsNewOil = true;
+        }
     }
 }
