@@ -13,6 +13,12 @@ namespace GenericsExercise
             AreTiresChanged = true;
             IsNewOil = true;
             IsFilledUp = true;
+            TypeOfGas = GasType.Regular;
+        }
+
+        public override string ToString()
+        {
+            return "Sedan";
         }
     }
 }

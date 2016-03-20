@@ -13,6 +13,12 @@ namespace GenericsExercise
             AreTiresChanged = true;
             IsFilledUp = true;
             IsNewOil = true;
+            TypeOfGas = GasType.HighPerformance;
+        }
+
+        public override string ToString()
+        {
+            return "Race Car";
         }
     }
 }
