@@ -23,9 +23,17 @@ namespace GenericsExercise
             ThreeStop.AreTiresChanged(truck);
             Console.WriteLine();
 
-            TwoStop.IsNewOil(RaceCar);
-            TwoStop.isFilledUp(RaceCar);
+            TwoStop.IsNewOil(raceCar);
+            TwoStop.isFilledUp(raceCar);
+            TwoStop.AreTiresChanged(raceCar);
+            Console.WriteLine();
 
+            OneStop.IsNewOil(sedan);
+            OneStop.isFilledUp(sedan);
+            OneStop.AreTiresChanged(sedan);
+            Console.WriteLine();
+
+            Console.ReadLine();
         }
     }
 }
