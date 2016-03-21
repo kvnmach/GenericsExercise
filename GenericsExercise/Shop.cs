@@ -23,7 +23,7 @@ namespace GenericsExercise
 
         {
             TheVehicle.AreTiresChanged = false;
-            Console.WriteLine($"The {TheVehicle} had its Tires Serviced")
+            Console.WriteLine($"The {TheVehicle} had its Tires Serviced");
         }
     }
 
